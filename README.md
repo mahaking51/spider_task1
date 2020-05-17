@@ -1,4 +1,5 @@
-# spider_task1Bubble burst is a classical game which involves bursting randomly generated bubbles by clicking on it . 
+# spider_task1
+Bubble burst is a classical game which involves bursting randomly generated bubbles by clicking on it . 
 The main aim of this game is to burst the bubbles before it fills up major part of the screen. Know about the rules ,controls and the superpowers before playing the game by clicking on the how to play button.
 
 Feautures:
