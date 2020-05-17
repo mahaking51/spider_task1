@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="public/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Bubbles</title>
+
+</head>
+<body style="background-image: url('Above Clouds.png');">
+    <div style="visibility:hidden">
+        <audio autoplay loop>
+            <source src="public/assets/Waltz-music-loop.mp3">
+        </audio> 
+    </div>    
+    <div class="hover_bkgr_fricc" id='hoverBkgr'>
+        <span class="helper"></span>
+        <div>
+            <div class="popupCloseButton" id="popupClose">&times;</div>
+            <h2 class="popHead">Instructions</h2>
+            <ul>
+                <li>Click on the bubble to burst the bubble..</li>
+                <li>Hit Space bar to pause the game</li>
+                <li>Dark Colored Bubbles require 5 clicks to burst</li>
+                <li>Click on the Gauntlet to snap and burst many bubbles at once,but this power can be used only once</li>
+                <li>Click on the refridgerator to freeze the bubbles for 10 seconds</li>
+                
+            </ul>
+        </div>
+    </div>
+    <section id='heading'>
+        <div class="container heading">
+            <h1>Burst The Bubbles</h1>
+        </div>
+        <div class='container buttons'>
+            <button class="btn" id='playbutton' >
+                <a href='indexgame.html' id="linkGame">Play</a></button>
+            <button class="btn" id='triggerPop' >How To Play</button>
+        </div>
+    </section>
+</body>
+<script>
+document.getElementById('triggerPop').addEventListener('click',function(){
+    document.getElementById('hoverBkgr').style.display='block';
+});
+document.getElementById('hoverBkgr').addEventListener('click',function(){
+    document.getElementById('hoverBkgr').style.display='none';
+});
+document.getElementById('popupClose').addEventListener('click',function(){
+    document.getElementById('hoverBkgr').style.display='none';
+});
+document.getElementById('linkGame').addEventListener('mouseover',function(){
+    if(document.getElementById('linkGame').innerHTML==='Play'){
+    document.getElementById('linkGame').innerHTML='Play ►';
+    }
+    else{
+        document.getElementById('linkGame').innerHTML='Play';
+
+    }
+})
+
+</script>
+</html>
