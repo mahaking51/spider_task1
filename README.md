@@ -13,5 +13,6 @@ Feautures:
 * rock bubbles (dark colored and hard to burst)are formed randomly to make the game tricky
 * random colored bubbles gives the users a better environment
 
-For better experience play this game on a PC or a laptop.. the game is published in : https://mahaking51.github.io/spider_task1/
+For better experience play this game on a PC or a laptop.. 
+the game is published in : https://mahaking51.github.io/spider_task1/
 Enjoy the Game 😀 !!!
